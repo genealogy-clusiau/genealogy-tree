@@ -247,7 +247,14 @@
         )
       );
 
-      const x = (svgBox.width - treeBox.width * scale) / 2 - treeBox.x * scale;
+      // Put the opening/root node left-of-center.
+      // 0.10 = what fraction from left
+      const rootScreenX = svgBox.width * 0.10;
+
+      // Root node is at local x/y around 0 after D3 horizontal layout.
+      const x = rootScreenX;
+
+      // Center the rendered tree vertically in the available SVG space.
       const y = (svgBox.height - treeBox.height * scale) / 2 - treeBox.y * scale;
 
       svg
@@ -257,9 +264,7 @@
           zoomBehavior.transform,
           d3.zoomIdentity.translate(x, y).scale(scale)
         );
-    }
-
-    function renderTree(rootData) {
+    } function renderTree(rootData) {
       document.getElementById('empty-state').classList.add('hidden');
       initSvg();
       const root = d3.hierarchy(rootData);
