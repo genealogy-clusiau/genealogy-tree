@@ -1,4 +1,4 @@
-# Clusiau (Cluseau) Genealogy Builder
+# Clusiau (Cluseau) Family Tree Viewer
 
 [![Public Tree](https://img.shields.io/badge/public-tree-blue?logo=github)](https://genealogy-clusiau.github.io/genealogy-tree/)
 ![People](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/genealogy-clusiau/genealogy-tree/main/badges/people.json)
@@ -6,7 +6,6 @@
 
 [![Python 3.14+](https://img.shields.io/badge/python-3.14%2B-blue?logo=python)](https://github.com/genealogy-clusiau/genealogy-tree/blob/main/pyproject.toml)
 [![CI](https://github.com/genealogy-clusiau/genealogy-tree/actions/workflows/ci-python-zensical.yml/badge.svg?branch=main)](https://github.com/genealogy-clusiau/genealogy-tree/actions/workflows/ci-python-zensical.yml)
-[![Publish Tree](https://github.com/genealogy-clusiau/genealogy-tree/actions/workflows/publish-tree.yml/badge.svg?branch=main)](https://github.com/genealogy-clusiau/genealogy-tree/actions/workflows/publish-tree.yml)
 [![Links](https://github.com/genealogy-clusiau/genealogy-tree/actions/workflows/links.yml/badge.svg?branch=main)](https://github.com/genealogy-clusiau/genealogy-tree/actions/workflows/links.yml)
 [![Dependabot](https://img.shields.io/badge/Dependabot-enabled-brightgreen.svg)](https://github.com/genealogy-clusiau/genealogy-tree/security)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
