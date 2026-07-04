@@ -2240,7 +2240,7 @@
 1 DEAT
 2 DATE 06 DEC 1966
 1 FAMS @P05F4@
-1 NOTE Source: images/p05.jpg, generation 8 (spouse of Alexis Clusiau).
+1 NOTE FamilySearch: https://www.familysearch.org/en/tree/person/details/LX9Q-JKK, Source: images/p05.jpg, generation 8 (spouse of Alexis Clusiau).
 
 0 @P05I16@ INDI
 1 NAME Arnim /Cluseau/
@@ -2275,7 +2275,7 @@
 2 DATE 26 AUG 1990
 1 FAMC @P05F4@
 1 FAMS @P05F6@
-1 NOTE Source: images/p05.jpg, generation 9.
+1 NOTE FamilySearch: https://www.familysearch.org/en/tree/person/details/LX9Q-FYQ, Source: images/p05.jpg, generation 9.
 
 0 @P05I19@ INDI
 1 NAME Ebner S. /Butner/
@@ -2289,7 +2289,7 @@
 2 CONT Cluseau). No children printed under this union.
 
 0 @P05I20@ INDI
-1 NAME Arlie /Cluseau/
+1 NAME Arlie /Clusiau/
 1 SEX M
 1 BIRT
 2 DATE 06 DEC 1910
@@ -2297,26 +2297,34 @@
 2 DATE JUN 1969
 1 FAMC @P05F4@
 1 FAMS @P05F7@
-1 NOTE Source: images/p05.jpg, generation 9.
+1 NOTE FamilySearch: https://www.familysearch.org/en/tree/person/details/LRT9-WBP, Source: images/p05.jpg, generation 9.
 
 0 @P05I21@ INDI
-1 NAME Living /Kokkinen/
+1 NAME Eleanor /Kokkinen/
 1 SEX F
+1 BIRT
+2 DATE 23 NOV 1916
+1 DEAT
+2 DATE 21 MAY 2008
 1 FAMS @P05F7@
-1 NOTE Source: images/p05.jpg, generation 9 (spouse of Arlie Cluseau).
+1 NOTE FamilySearch: https://www.familysearch.org/en/tree/person/details/LRT9-W1C, Source: images/p05.jpg, generation 9 (spouse of Arlie Clusiau).
 
 0 @P05I22@ INDI
-1 NAME Living /Cluseau/
+1 NAME Marilyn /Clusiau/
 1 SEX F
+1 BIRT
+2 DATE 13 JUL 1936
+1 DEAT
+2 DATE 2 MAR 2019
 1 FAMC @P05F7@
 1 FAMS @P05F8@
-1 NOTE Source: images/p05.jpg, generation 10.
+1 NOTE FamilySearch: https://www.familysearch.org/en/tree/person/details/GS9F-SQT, Source: images/p05.jpg, generation 10.
 
 0 @P05I23@ INDI
 1 NAME Living /Johnson/
 1 SEX M
 1 FAMS @P05F8@
-1 NOTE Source: images/p05.jpg, generation 10 (spouse of Marilyn Cluseau).
+1 NOTE Source: images/p05.jpg, generation 10 (spouse of Marilyn Clusiau).
 
 0 @P05I24@ INDI
 1 NAME Living /Johnson/
@@ -2335,8 +2343,8 @@
 2 CONT Johnson). Likely a living person.
 
 0 @P05I26@ INDI
-1 NAME Living /Johnson/
-1 SEX F
+1 NAME Living /Martin/
+1 SEX M
 1 FAMC @P05F9@
 1 NOTE Source: images/p05.jpg, generation 12. Likely a living person.
 
@@ -2373,7 +2381,7 @@
 1 SEX M
 1 FAMC @P05F11@
 1 NOTE Source: images/p05.jpg, generation 12. Same birth date as Christine
-2 CONT Ann Case (@P05I32@) - likely twins, though the source does not
+2 CONT Ann Case (@P05I32@) likely twins, though the source does not
 2 CONT state this explicitly, same pattern as Marie/Augustin Cluseau on
 2 CONT p01.jpg. Likely a living person.
 
@@ -2382,7 +2390,9 @@
 1 SEX F
 1 FAMC @P05F11@
 1 NOTE Source: images/p05.jpg, generation 12. Same birth date as Travis
-2 CONT Case (@P05I31@) - likely twins. Likely a living person.
+2 CONT Case (@P05I31@) likely twins, though the source does not
+2 CONT state this explicitly, same pattern as Marie/Augustin Cluseau on
+2 CONT p01.jpg. Likely a living person.
 
 0 @P05I33@ INDI
 1 NAME Living /Johnson/
@@ -2427,7 +2437,7 @@
 1 NAME Living /Kapsch/
 1 SEX M
 1 FAMS @P05F13@
-1 NOTE Source: images/p05.jpg, generation 10 (spouse of Shirley Cluseau).
+1 NOTE Source: images/p05.jpg, generation 10 (spouse of Shirley Clusiau).
 
 0 @P05I40@ INDI
 1 NAME Living /Kapsch/
@@ -2597,7 +2607,7 @@
 2 CONT person.
 
 0 @P06I7@ INDI
-1 NAME Dorothy /Cluseau/
+1 NAME Dorothy Katherine /Cluseau/
 1 SEX F
 1 BIRT
 2 DATE 27 DEC 1912
@@ -2605,7 +2615,7 @@
 2 DATE 30 AUG 2003
 1 FAMC @P05F4@
 1 FAMS @P06F3@
-1 NOTE Source: images/p06.jpg, generation 9.
+1 NOTE FamilySearch: https://www.familysearch.org/en/tree/person/details/LRT9-DR3, Source: images/p06.jpg, generation 9.
 
 0 @P06I8@ INDI
 1 NAME Clarence /Voigt/
@@ -2623,7 +2633,7 @@
 1 SEX F
 1 FAMC @P05F4@
 1 FAMS @P06F4@
-1 NOTE Source: images/p06.jpg, generation 9. Only a burial year is given,
+1 NOTE FamilySearch: https://www.familysearch.org/en/tree/person/details/LRTS-FC9, Source: images/p06.jpg, generation 9. Only a burial year is given,
 2 CONT no death date - recorded as printed.
 
 0 @P06I10@ INDI
@@ -2642,7 +2652,7 @@
 2 DATE 04 FEB 1980
 1 FAMC @P05F4@
 1 FAMS @P06F5@
-1 NOTE Source: images/p06.jpg, generation 9.
+1 NOTE FamilySearch: https://www.familysearch.org/en/tree/person/details/LRTS-JVX, Source: images/p06.jpg, generation 9.
 
 0 @P06I12@ INDI
 1 NAME Frank /Perpich/
@@ -2664,7 +2674,7 @@
 2 DATE 18 SEP 2003
 1 FAMC @P05F4@
 1 FAMS @P06F6@
-1 NOTE Source: images/p06.jpg, generation 9.
+1 NOTE FamilySearch: https://www.familysearch.org/en/tree/person/details/LRTS-X1N, Source: images/p06.jpg, generation 9.
 
 0 @P06I14@ INDI
 1 NAME Alvin O. /Wickstrom/
@@ -2683,8 +2693,8 @@
 1 FAMC @P05F4@
 1 FAMS @P06F7@
 1 NOTE Source: images/p06.jpg, generation 9. Shares her name with her
-2 CONT niece @P05I38@ (Shirley Cluseau, b.1942, generation 10, daughter of
-2 CONT Arlie Cluseau) - two different people, disambiguated by generation
+2 CONT niece @P05I38@ (Shirley Clusiau, b.1942, generation 10, daughter of
+2 CONT Arlie Clusiau) - two different people, disambiguated by generation
 2 CONT and birth year, same pattern as the two "Peg" Clusiaus noted
 2 CONT earlier in this tree.
 
@@ -2692,11 +2702,11 @@
 1 NAME Living /Mason/
 1 SEX M
 1 FAMS @P06F7@
-1 NOTE Source: images/p06.jpg, generation 9 (spouse of Shirley Cluseau
+1 NOTE Source: images/p06.jpg, generation 9 (spouse of Shirley Clusiau
 2 CONT b.1923). No children printed under this union.
 
 0 @P06I17@ INDI
-1 NAME Kenneth /Cluseau/
+1 NAME Kenneth Eugene /Cluseau/
 1 SEX M
 1 BIRT
 2 DATE 16 SEP 1926
@@ -2704,7 +2714,7 @@
 2 DATE 26 MAY 1983
 1 FAMC @P05F4@
 1 FAMS @P06F8@
-1 NOTE Source: images/p06.jpg, generation 9.
+1 NOTE FamilySearch: https://www.familysearch.org/en/tree/person/details/MZWC-LLY, Source: images/p06.jpg, generation 9.
 
 0 @P06I18@ INDI
 1 NAME Mary Lou /McDonald/
