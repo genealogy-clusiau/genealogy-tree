@@ -9,8 +9,6 @@
     content="Interactive GEDCOM family tree viewer with search, expandable branches, and public redacted genealogy data.">
   <meta name="author" content="Denise Case">
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.5/d3.min.js"></script>
-
   <link rel="stylesheet" href="styles.css">
 
   <link rel="shortcut icon" href="../images/favicon_io/favicon.ico" type="image/x-icon">
@@ -25,7 +23,7 @@
   <div id="app">
     <header>
       <div>
-        <img src="favicon.ico" alt="Family Tree Icon" style="height:40px;vertical-align:middle;margin-right:10px;">
+        <img src="favicon.ico" alt="Family Tree Icon" width="40" height="40" class="header-icon">
         <h1>Family Tree<span class="sub">GEDCOM viewer &mdash; scroll, click to expand, search a name</span></h1>
       </div>
       <div class="controls">
@@ -62,17 +60,17 @@
     <div class="hint">Scroll or pinch to zoom &middot; drag to pan &middot; click a node to expand/collapse and see
       details</div>
     <footer class="site-footer">
-      <span>Clusiau Genealogy</span>
-      <span>&middot;</span>
       <a href="https://github.com/genealogy-clusiau" target="_blank" rel="noopener noreferrer">
-        GitHub Organization
+        Org
       </a>
       <span>&middot;</span>
       <a href="https://github.com/genealogy-clusiau/genealogy-tree" target="_blank" rel="noopener noreferrer">
-        Public Viewer Repository
+        Repo
       </a>
     </footer>
   </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.5/d3.min.js"></script>
 
   <script>
     const DEFAULT_GEDCOM_URL = "../ged/data.ged";
@@ -349,7 +347,10 @@
           .text(d => [d.data.birt, d.data.deat].filter(Boolean).map((v, i) => i === 0 ? `b. ${v}` : `d. ${v}`).join('  '));
 
         const nodeUpdate = nodeEnter.merge(node);
-        nodeUpdate.transition().duration(300).attr('transform', d => `translate(${d.y},${d.x})`);
+        nodeUpdate
+          .transition()
+          .duration(window.__initialRenderDone ? 300 : 0)
+          .attr('transform', d => `translate(${d.y},${d.x})`);
         nodeUpdate.select('circle').attr('r', d => d._children ? 8 : 6.5)
           .attr('stroke-dasharray', d => d._children ? '2,1' : null);
 
@@ -390,6 +391,7 @@
       // center on root
       const initialTransform = d3.zoomIdentity.translate(140, height0 / 2).scale(0.85);
       svg.call(zoomBehavior.transform, initialTransform);
+      window.__initialRenderDone = true;
     }
 
     function showPanel(d) {
@@ -500,7 +502,9 @@
     wireSample('load-sample');
     wireSample('empty-load-sample');
 
-    loadDefaultGedcom();
+    window.addEventListener("load", () => {
+      window.setTimeout(loadDefaultGedcom, 100);
+    });
 
   </script>
 </body>
