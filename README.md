@@ -10,7 +10,7 @@
 [![Dependabot](https://img.shields.io/badge/Dependabot-enabled-brightgreen.svg)](https://github.com/genealogy-clusiau/genealogy-tree/security)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
-> Private builder repository for the Clusiau / Cluseau family genealogy archive.
+> Clusiau / Cluseau family tree viewer.
 
 ## Where to start
 
@@ -18,27 +18,15 @@
   View the redacted public tree at
   <https://genealogy-clusiau.github.io/genealogy-tree/>
 
-- **Builder documentation:**
-  View the builder docs at
+- **Documentation:**
+  View the docs at
   <https://genealogy-clusiau.github.io/genealogy-tree/>
 
 - **GEDCOM source data:**
-  See the redacted GEDCOM files in `ged/`.
-  Do not publish raw GEDCOM files directly
-  unless they have been reviewed for
-  living/private individuals.
-
-## How to add or correct information
-
-1. Open an issue describing the correction, or
-2. Edit `data.ged` directly and open a pull request, or
-3. If you're not comfortable with GitHub,
-   contact **[Denise Case]** and
-   they'll make the edit for you.
-
-Please cite a source for any correction (a document, a person's
-recollection with their name/date, etc.) so we can track provenance -
-genealogy accuracy depends on it.
+  See the private GEDCOM files in `ged/`.
+  The hand-edited source of truth is `ged/data.ged`.
+  Do not publish raw GEDCOM files directly unless they have been reviewed
+  for living/private individuals.
 
 ## Developer
 
